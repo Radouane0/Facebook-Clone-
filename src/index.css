@@ -4,11 +4,26 @@ body {
   background-color: #f5f6f7;
 }
 
+.container {
+  display: flex;
+}
+
 .container-left {
   display: flex;
   flex-direction: column;
   margin-left: 450px;
   margin-top: 80px;
+}
+
+.container-right {
+  margin-top: 150px;
+  margin-left: 250px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 40px;
+  width: 20%;
+  height: 300px;
 }
 
 
@@ -58,7 +73,7 @@ p {
   flex-direction: column;
   box-shadow: 0 0 0 1px #dddfe2;
   border-radius: 8px;
-  width: 12%;
+  width: 54%;
   height: 220px;
   background-color: #f5f6f7;
   text-decoration: none;
@@ -67,5 +82,21 @@ p {
 a:hover {
   transform: scale(1.07);
 }
+
+.login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+}
+
+
+
+
+
+
 
 

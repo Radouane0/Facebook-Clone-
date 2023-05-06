@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "./components/Form/index"
 // import Footer from "./components/Footer/index"
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           </a>
         </div>
         <div className="container-right">
+        <Form />
         </div>
       </section>
       {/* <Footer /> */}
